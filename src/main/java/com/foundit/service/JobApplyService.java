@@ -29,7 +29,8 @@ public class JobApplyService {
 
     static String url1 = "https://www.foundit.in/home/api/searchResultsPage?start=1&limit=500&query=java+developer&queryDerived=true&quickApplyJob=show+quick+apply+job&countries=India&limit=500";
     static String url2 = "https://www.foundit.in/home/api/searchResultsPage?start=0&limit=5000&query=spring+boot&queryEntity=spring+boot%3Anew_skill&queryDerived=true&quickApplyJob=show+quick+apply+job&countries=India&limit=20";
-    private static final String SEARCH_URL = url2;
+    static String url3 = "https://www.foundit.in/home/api/searchResultsPage?start=0&limit=500&query=software+engineer&query=java&queryEntity=software+engineer%3Adesignation&queryEntity=java%3Anew_skill&queryDerived=true&quickApplyJob=show+quick+apply+job&countries=India&limit=500";
+    private static final String SEARCH_URL = url3;
 
     private static final String APPLY_URL_TEMPLATE =
             "https://www.foundit.in/home/api/canJobApply?jobId=%s&start=1&limit=20&query=java+developer&queryDerived=true&quickApplyJob=Show+Quick+Apply+Job";
